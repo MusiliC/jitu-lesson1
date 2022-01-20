@@ -1,0 +1,48 @@
+
+
+.recipe{
+    width: 60%;
+    background-color: rgb(143, 172, 162);
+    margin: 5% 5%;
+    padding: 2.5% 2.5%;
+    border-radius: 10%;
+    box-shadow: 5px 10px 20px;
+}
+
+.steps{
+    padding: 2%;
+    
+}
+
+.steps-img{
+display: flex;
+flex-direction: row;
+}
+
+img{
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: rgb(87, 115, 139);
+    color: rgb(27, 54, 209);
+    text-transform: capitalize;
+    
+}
+h4{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+li{
+    margin: 5px;
+    padding: 5px 10px;
+}
